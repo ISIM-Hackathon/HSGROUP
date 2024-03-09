@@ -245,3 +245,49 @@ ul{
 
 /* footer-end */
 /* footer section end  */
+
+/* report section css */
+
+.report {
+   padding-top: 3vh;
+   font-family: "Poppins", sans-serif;
+   background-color: whitesmoke;
+   height: 100vh;
+   /* overflow-y: scroll ; */
+ }
+ .report .reportbox{
+   
+   width: 30vw;
+   
+   justify-content: center;
+   align-items: center;
+  
+ }
+ 
+ /* .alertboxclose .close{
+   background: none;
+   border: none !important;
+   
+  } */
+ .report .inputbox{
+   width: 100%; border: none;
+   border-radius: 0;
+   border-bottom: 2px solid black !important;
+   text-decoration: none;
+ }
+ .report .btnbox{
+   margin: 0 auto !important;
+ }
+ .report .imgbox{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .report .lostimage{
+   width: 8vw;
+   height: 12vh;
+   
+ }
+ 

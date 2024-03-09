@@ -1,29 +1,24 @@
 import React from "react";
 import './App.css'
 import Navbar from './components/Navbar'
+import Main from './components/Main'
 import About from './components/About';
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Lostfound from './components/Lostfound'; 
+import Clean from './components/Clean'
+
 
 function App() {
   return (
-    <div className="App">
-      {/* Application header start */}
-      <Navbar/>
-      <marquee className="marquee">Internationl School Of Informatics & Management : Admission Open Btech Secssion 2023-24 Contect us on tel : +917052101786 </marquee>
-      {/* Application header end */}
-      
 
-        
-
-
-
-    <Main/>
-    <About/>
-    <Footer/>
-      
-    </div>
+      <>
+        <Navbar />
+        <marquee className="marquee">International School Of Informatics & Management: Admission Open Btech Section 2023-24 Contact us on tel: +917052101786</marquee>
+           <Main/>
+           <About/>
+           <Lostfound/>
+           <Clean/>
+      </>
+    
   );
 }
 

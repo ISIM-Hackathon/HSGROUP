@@ -7,7 +7,7 @@ export default function Mainitem({ item }) {
      return (
         <div style={{margin:"50px", overflow:"hidden"}} className="shadow p-3 mb-5 bg-body-tertiary rounded">
             <h1 style={{fontSize:'20px'}}>{item.name}</h1>
-            <img src={item.image} alt="..." className="img-fluid" style={{ width: "180px", height: "180px" }} />
+            <img src={item.image} alt="..." className="img-fluid" style={{ width: "180px", height: "180px"  }} />
             < div className="flex-container">
                 <div className="w-100">
                     <p>varient</p>

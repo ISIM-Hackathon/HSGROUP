@@ -1,6 +1,7 @@
 import React from 'react'
 import Signup from './Signup'
 import Login from './Login'
+import About from './About'
 
 export default function Navbar() {
   return (
@@ -17,7 +18,7 @@ export default function Navbar() {
           <a className="nav-link " aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About</a>
+          <a className="nav-link" href='/' >About</a>
         </li>
         <li className="nav-item">
           <a className="nav-link " aria-current="page" href="/">Food & Refreshment</a>
